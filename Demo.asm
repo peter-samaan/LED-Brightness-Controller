@@ -50,9 +50,9 @@ Start:
     
 ;loop that allows demo of switch input to LEDs
 SwitchDemo:
-	IN Switches
-	OUT LEDs
-	JUMP SwitchDemo
+	IN 		Switches
+	OUT 	LEDs
+	JUMP 	SwitchDemo
     
 ;subroutine "FullLEDX" turns the LED with number X to 100% brightness with diminishing brightnesses for nearby LEDs
 FullLED0:
